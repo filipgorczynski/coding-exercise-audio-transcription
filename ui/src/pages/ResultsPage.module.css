@@ -1,0 +1,17 @@
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.errorContainer {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
