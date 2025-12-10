@@ -1,0 +1,14 @@
+.container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.uploadSection {
+  padding: 2rem;
+  text-align: center;
+}
+
+.linkSection {
+  padding: 2rem;
+}
