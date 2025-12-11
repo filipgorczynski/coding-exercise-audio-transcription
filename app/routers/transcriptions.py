@@ -58,7 +58,7 @@ async def upload_from_url(
             file_type=content_type,
             duration=duration,
             language=request.language,
-            detect_speakers=request.detect_speakers,
+            # detect_speakers=request.detect_speakers,
             source_url=request.url,
         )
 

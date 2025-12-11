@@ -17,7 +17,7 @@ def process_transcription(
     file_type: str,
     duration: float,
     language: str = "en",
-    detect_speakers: bool = False,
+    # detect_speakers: bool = False,
     source_url: str = None,
 ) -> Transcription:
     """Process transcription synchronously and return complete transcription."""

@@ -7,14 +7,15 @@ import type {
 export const transcriptionApi = {
   uploadFile: async (
     file: File,
-    options?: { language?: string; detectSpeakers?: boolean },
+    // options?: { language?: string; detectSpeakers?: boolean },
     onProgress?: (progress: number) => void,
   ): Promise<Transcription> => {
     const formData = new FormData();
     formData.append("file", file);
-    if (options?.language) formData.append("language", options.language);
-    if (options?.detectSpeakers) formData.append("detect_speakers", "true");
+    // if (options?.language) formData.append("language", options.language);
+    // if (options?.detectSpeakers) formData.append("detect_speakers", "true");
 
+    // TODO(fgorczynski): export to URL constants
     return apiClient.post("/api/transcriptions/upload", formData, {
       headers: { "Content-Type": "multipart/form-data" },
       onUploadProgress: (progressEvent) => {
@@ -28,12 +29,12 @@ export const transcriptionApi = {
 
   uploadFromUrl: async (
     url: string,
-    options?: { language?: string; detectSpeakers?: boolean },
+    // options?: { language?: string; detectSpeakers?: boolean },
   ): Promise<Transcription> => {
     return apiClient.post("/api/transcriptions/upload-url", {
       url,
-      language: options?.language || "en",
-      detect_speakers: options?.detectSpeakers || false,
+      // language: options?.language || "en",
+      // detect_speakers: options?.detectSpeakers || false,
     });
   },
 
