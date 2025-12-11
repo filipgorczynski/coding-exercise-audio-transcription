@@ -1,17 +1,15 @@
 import { apiClient } from "./client";
-import axios from "axios";
 import type {
   Transcription,
-  TranscriptionUpdate,
+  TranscriptionItem,
 } from "../../types/transcription";
-import type { UploadResponse } from "../../types/upload";
 
 export const transcriptionApi = {
   uploadFile: async (
     file: File,
     options?: { language?: string; detectSpeakers?: boolean },
     onProgress?: (progress: number) => void,
-  ): Promise<UploadResponse> => {
+  ): Promise<Transcription> => {
     const formData = new FormData();
     formData.append("file", file);
     if (options?.language) formData.append("language", options.language);
@@ -31,7 +29,7 @@ export const transcriptionApi = {
   uploadFromUrl: async (
     url: string,
     options?: { language?: string; detectSpeakers?: boolean },
-  ): Promise<UploadResponse> => {
+  ): Promise<Transcription> => {
     return apiClient.post("/api/transcriptions/upload-url", {
       url,
       language: options?.language || "en",
@@ -39,32 +37,11 @@ export const transcriptionApi = {
     });
   },
 
+  listTranscriptions: async (): Promise<TranscriptionItem[]> => {
+    return apiClient.get("/api/transcriptions");
+  },
+
   getTranscription: async (id: string): Promise<Transcription> => {
     return apiClient.get(`/api/transcriptions/${id}`);
-  },
-
-  updateTranscription: async (
-    id: string,
-    update: TranscriptionUpdate,
-  ): Promise<Transcription> => {
-    return apiClient.patch(`/api/transcriptions/${id}`, update);
-  },
-
-  deleteTranscription: async (id: string): Promise<void> => {
-    return apiClient.delete(`/api/transcriptions/${id}`);
-  },
-
-  exportTranscription: async (
-    id: string,
-    format: "txt" | "docx" | "srt",
-  ): Promise<Blob> => {
-    const response = await axios.get(
-      `${apiClient.defaults.baseURL}/api/transcriptions/${id}/export`,
-      {
-        params: { format },
-        responseType: "blob",
-      },
-    );
-    return response.data;
   },
 };

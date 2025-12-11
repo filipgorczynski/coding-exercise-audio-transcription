@@ -1,15 +1,8 @@
-FROM node:24-alpine3.21 AS builder
+FROM node:24-alpine3.21
 
 WORKDIR /app
 COPY package*.json ./
-RUN npm ci
+EXPOSE 5173
 COPY . .
-RUN npm run build
-
-# Production stage
-FROM nginx:alpine
-COPY --from=builder /app/dist /usr/share/nginx/html
-# TODO(fgorczynski): add nginx.conf
-# COPY nginx.conf /etc/nginx/nginx.conf
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+RUN npm install
+CMD ["npm", "run", "dev"]

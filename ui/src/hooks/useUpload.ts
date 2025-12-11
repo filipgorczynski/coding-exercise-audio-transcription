@@ -11,7 +11,7 @@ export const useFileUpload = () => {
     mutationFn: (params: { file: File; options?: any }) =>
       transcriptionApi.uploadFile(params.file, params.options, setProgress),
     onSuccess: (data) => {
-      navigate(`/results/${data.transcription_id}`);
+      navigate(`/results/${data.id}`);
     },
   });
 
@@ -25,7 +25,7 @@ export const useUrlUpload = () => {
     mutationFn: (params: { url: string; options?: any }) =>
       transcriptionApi.uploadFromUrl(params.url, params.options),
     onSuccess: (data) => {
-      navigate(`/results/${data.transcription_id}`);
+      navigate(`/results/${data.id}`);
     },
   });
 };

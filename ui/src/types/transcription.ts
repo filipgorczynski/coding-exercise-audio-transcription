@@ -1,12 +1,18 @@
 export type Status = "pending" | "processing" | "completed" | "failed";
 
+export interface TranscriptionItem {
+  id: string;
+  status: Status;
+  file_name: string;
+  duration?: number;
+}
+
 export interface TranscriptionSegment {
   id: string;
   start_time: number;
   end_time: number;
   text: string;
   speaker?: string;
-  confidence?: number;
 }
 
 export interface Transcription {
@@ -17,12 +23,6 @@ export interface Transcription {
   duration?: number;
   language?: string;
   segments: TranscriptionSegment[];
-  createdAt: string;
-  updatedAt: string;
-  metadata?: {
-    sourceUrl?: string;
-    processingTime?: number;
-  };
 }
 
 export interface TranscriptionUpdate {

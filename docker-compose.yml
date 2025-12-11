@@ -1,0 +1,40 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    container_name: transcription-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app                  # Mount entire source directory for hot-reload
+      - ./app/uploads:/app/uploads  # Persist uploads (overrides above)
+      - ./app/data:/app/data        # Persist data (overrides above)
+    environment:
+      - UPLOAD_DIR=/app/uploads
+      - DATA_DIR=/app/data
+      - MAX_FILE_SIZE=524288000
+      - CORS_ORIGINS=http://localhost:5173,http://localhost
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./ui
+      dockerfile: Dockerfile
+    container_name: transcription-frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./ui:/app              # Mount entire ui directory
+      - /app/node_modules      # Preserve container's node_modules (200MB)
+    environment:
+      - VITE_API_URL=http://localhost:8000
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  uploads:
+  data:

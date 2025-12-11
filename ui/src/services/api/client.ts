@@ -4,13 +4,15 @@ const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,
-  timeout: 60000,
+  // 15 minutes (as we have long processing times)
+  // TODO(fgorczynski): "fix" by providing approach like Celery
+  timeout: 900000,
   headers: {
     "Content-Type": "application/json",
   },
 });
 
-// Request interceptor
+// REQUEST interceptor
 apiClient.interceptors.request.use(
   (config) => {
     return config;
@@ -18,7 +20,7 @@ apiClient.interceptors.request.use(
   (error) => Promise.reject(error),
 );
 
-// Response interceptor
+// RESPONSE interceptor
 apiClient.interceptors.response.use(
   (response) => response.data,
   (error) => {

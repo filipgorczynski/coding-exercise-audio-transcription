@@ -1,0 +1,7 @@
+fastapi[standard]==0.124.2
+ffmpeg-python==0.2.0
+openai-whisper==20250625
+pyannote.audio==4.0.3
+pydantic==2.12.5
+uv==0.9.17
+uvicorn==0.38.0
