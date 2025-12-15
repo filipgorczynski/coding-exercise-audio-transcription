@@ -192,7 +192,6 @@ def process_transcription(
     # Assign speakers to segments based on diarization
     try:
         annotated_segments = assign_speaker_by_overlap(segments, speaker_diarization)
-        print("annotated_segments: ", annotated_segments)
         transcription.segments = annotated_segments
         transcription.status = TranscriptionStatus.COMPLETED
     except Exception as e:

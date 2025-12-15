@@ -656,5 +656,799 @@
         "text": "Thank you for having me."
       }
     ]
+  },
+  "9901bfa0-a2cb-4bd1-b2b8-b2c1d8f5b1ad": {
+    "id": "9901bfa0-a2cb-4bd1-b2b8-b2c1d8f5b1ad",
+    "status": "completed",
+    "file_name": "audio-sample-1.mp3",
+    "file_type": "audio/mpeg",
+    "duration": 371.77,
+    "language": "en",
+    "segments": [
+      {
+        "id": "seg-0",
+        "start_time": 0.0,
+        "end_time": 5.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 3.58528125,
+        "text": "Please type in a statement for a witness statement."
+      },
+      {
+        "id": "seg-1",
+        "start_time": 5.0,
+        "end_time": 11.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 5.560968750000001,
+        "text": "Address is sample solicitous address 1, address 2, address 3 and then postcode underneath."
+      },
+      {
+        "id": "seg-2",
+        "start_time": 11.0,
+        "end_time": 15.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 3.1387500000000017,
+        "text": "Date is the 19th of February 2010."
+      },
+      {
+        "id": "seg-3",
+        "start_time": 15.0,
+        "end_time": 25.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 8.302500000000002,
+        "text": "Your reference is A for Alpha, B for Bravo, C for Charlie, slash P for Papa, Q for Quebec, R for Romeo, slash 1, 2, slash 3, 4, 5."
+      },
+      {
+        "id": "seg-4",
+        "start_time": 25.0,
+        "end_time": 31.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 4.96125,
+        "text": "Our reference is A for Alpha, C for Charlie, C for Charlie, 9876."
+      },
+      {
+        "id": "seg-5",
+        "start_time": 31.0,
+        "end_time": 34.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.413125000000001,
+        "text": "Inspector on the next line is Joe Bloggs."
+      },
+      {
+        "id": "seg-6",
+        "start_time": 34.0,
+        "end_time": 36.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.0,
+        "text": "Claim technician on the next line, Tom Smith."
+      },
+      {
+        "id": "seg-7",
+        "start_time": 36.0,
+        "end_time": 43.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 5.568750000000001,
+        "text": "Underneath that, please put a rectangle box with client interviewed in inverted commas."
+      },
+      {
+        "id": "seg-8",
+        "start_time": 43.0,
+        "end_time": 47.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.8056250000000063,
+        "text": "Next line, dear sirs, re, your client, Henry Jones."
+      },
+      {
+        "id": "seg-9",
+        "start_time": 47.0,
+        "end_time": 50.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.942781249999996,
+        "text": "Next line, accident date, 12th of May 2008."
+      },
+      {
+        "id": "seg-10",
+        "start_time": 50.0,
+        "end_time": 54.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.010906249999998,
+        "text": "Paragraph, we are pleased to confirm that we have interviewed your client"
+      },
+      {
+        "id": "seg-11",
+        "start_time": 54.0,
+        "end_time": 58.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.4272187500000015,
+        "text": "and as such we are pleased to supply our findings to you in the following manner."
+      },
+      {
+        "id": "seg-12",
+        "start_time": 58.0,
+        "end_time": 63.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 3.6112500000000054,
+        "text": "Paragraph, please type client underlined and bold as the heading."
+      },
+      {
+        "id": "seg-13",
+        "start_time": 63.0,
+        "end_time": 66.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.2490312499999945,
+        "text": "New paragraph, Henry Jones is 32 years of age."
+      },
+      {
+        "id": "seg-14",
+        "start_time": 66.0,
+        "end_time": 69.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 3.0,
+        "text": "He lives with his wife and four children and is currently unemployed."
+      },
+      {
+        "id": "seg-15",
+        "start_time": 69.0,
+        "end_time": 72.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.1109062499999993,
+        "text": "Paragraph, he gave his evidence quite well."
+      },
+      {
+        "id": "seg-16",
+        "start_time": 72.0,
+        "end_time": 75.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.6471562499999948,
+        "text": "Full stop, he has a confident nature and a polite disposition."
+      },
+      {
+        "id": "seg-17",
+        "start_time": 75.0,
+        "end_time": 78.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.6940312499999948,
+        "text": "Full stop, he answered all questions asked of him"
+      },
+      {
+        "id": "seg-18",
+        "start_time": 78.0,
+        "end_time": 83.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 4.567781249999996,
+        "text": "and we were not given any particular reason to doubt the evidence he offered throughout the interview process."
+      },
+      {
+        "id": "seg-19",
+        "start_time": 83.0,
+        "end_time": 88.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.935906249999988,
+        "text": "Full stop, next heading is bold underlined and his evidence."
+      },
+      {
+        "id": "seg-20",
+        "start_time": 88.0,
+        "end_time": 95.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 4.856531249999989,
+        "text": "New paragraph, we would refer to the attached statement which you will wish to consider in its entirety."
+      },
+      {
+        "id": "seg-21",
+        "start_time": 95.0,
+        "end_time": 99.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.9193750000000023,
+        "text": "Comma, but briefly the main points can be summarised as follows."
+      },
+      {
+        "id": "seg-22",
+        "start_time": 99.0,
+        "end_time": 102.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.5965312499999982,
+        "text": "Next heading, A, full stop."
+      },
+      {
+        "id": "seg-23",
+        "start_time": 102.0,
+        "end_time": 105.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 3.0,
+        "text": "And then accident circumstances in bold, not underlined."
+      },
+      {
+        "id": "seg-24",
+        "start_time": 105.0,
+        "end_time": 108.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.5890312499999908,
+        "text": "Next paragraph, please bullet point these."
+      },
+      {
+        "id": "seg-25",
+        "start_time": 108.0,
+        "end_time": 116.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 7.489718750000009,
+        "text": "He was working for Simple Signs Limited as a factory operative and had been since the 9th of the 1st 2007."
+      },
+      {
+        "id": "seg-26",
+        "start_time": 116.0,
+        "end_time": 123.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 4.050906249999997,
+        "text": "The full stop, the company manufactured road signs and he states he did not receive any formal training before commencing his job."
+      },
+      {
+        "id": "seg-27",
+        "start_time": 123.0,
+        "end_time": 125.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.4840937500000138,
+        "text": "Full stop, next bullet point."
+      },
+      {
+        "id": "seg-28",
+        "start_time": 125.0,
+        "end_time": 129.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 4.0,
+        "text": "The incident happened on 12th of May 2008 at 10.30am."
+      },
+      {
+        "id": "seg-29",
+        "start_time": 129.0,
+        "end_time": 137.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 3.4256249999999966,
+        "text": "His normal job would be to place templates on metal road signs but this was not required and so he was told to pull the feet off barriers."
+      },
+      {
+        "id": "seg-30",
+        "start_time": 137.0,
+        "end_time": 140.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.893406249999998,
+        "text": "The barriers are used by construction companies and they needed to be resprayed yellow."
+      },
+      {
+        "id": "seg-31",
+        "start_time": 140.0,
+        "end_time": 141.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.582843749999995,
+        "text": "Full stop."
+      },
+      {
+        "id": "seg-32",
+        "start_time": 141.0,
+        "end_time": 147.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 5.3371562499999925,
+        "text": "He was told by his supervisor, John Smith, to pull the barriers off their supporting feet instead of using a sledgehammer."
+      },
+      {
+        "id": "seg-33",
+        "start_time": 147.0,
+        "end_time": 151.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.9921562499999936,
+        "text": "As it was suggested that a sledgehammer would break the feet full stop."
+      },
+      {
+        "id": "seg-34",
+        "start_time": 151.0,
+        "end_time": 156.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 4.2121562499999925,
+        "text": "It was also suggested that a machine could be used but it was cheaper to use manual labour."
+      },
+      {
+        "id": "seg-35",
+        "start_time": 156.0,
+        "end_time": 157.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.0,
+        "text": "Full stop, new bullet point."
+      },
+      {
+        "id": "seg-36",
+        "start_time": 157.0,
+        "end_time": 163.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 5.052781249999981,
+        "text": "He was on his third barrier and was pulling it out of his feet when he told the shoulder muscles in his left shoulder."
+      },
+      {
+        "id": "seg-37",
+        "start_time": 163.0,
+        "end_time": 164.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.0,
+        "text": "Full stop, new bullet point."
+      },
+      {
+        "id": "seg-38",
+        "start_time": 164.0,
+        "end_time": 168.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 3.1171562499999936,
+        "text": "He spoke to John Smith about his injury who said he was just trying to get out of the job."
+      },
+      {
+        "id": "seg-39",
+        "start_time": 168.0,
+        "end_time": 175.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 5.6115312499999845,
+        "text": "Full stop, however, comma, when your client stated that he needed to go to hospital, comma, John replied, get yourself away then."
+      },
+      {
+        "id": "seg-40",
+        "start_time": 175.0,
+        "end_time": 178.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.367781249999979,
+        "text": "But get yourself away then, in inverted commas please."
+      },
+      {
+        "id": "seg-41",
+        "start_time": 178.0,
+        "end_time": 181.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.9634062499999914,
+        "text": "New bullet point."
+      },
+      {
+        "id": "seg-42",
+        "start_time": 181.0,
+        "end_time": 189.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 7.845343750000012,
+        "text": "He is not aware if the incident was reported in the accident report book and he is not aware of any health and safety executive investigation."
+      },
+      {
+        "id": "seg-43",
+        "start_time": 189.0,
+        "end_time": 191.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.9396562499999845,
+        "text": "Full stop, new bullet point."
+      },
+      {
+        "id": "seg-44",
+        "start_time": 191.0,
+        "end_time": 195.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 4.0,
+        "text": "He believed the incident could have been avoided if he had taken the feet off with a sledgehammer, full stop."
+      },
+      {
+        "id": "seg-45",
+        "start_time": 195.0,
+        "end_time": 205.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 4.915906249999978,
+        "text": "He also reiterated that the feet would normally be taken off with a machine, but, in inverted commas, John Smith wants me to pull them off because it was much cheaper, close inverted commas."
+      },
+      {
+        "id": "seg-46",
+        "start_time": 205.0,
+        "end_time": 206.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.41465624999997885,
+        "text": "New bullet point."
+      },
+      {
+        "id": "seg-47",
+        "start_time": 206.0,
+        "end_time": 207.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.4122187500000223,
+        "text": "New bullet point."
+      },
+      {
+        "id": "seg-48",
+        "start_time": 207.0,
+        "end_time": 215.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.951531249999988,
+        "text": "He states there was no health and safety policy in place at all at the time of the incident and he had never signed any health and safety documents."
+      },
+      {
+        "id": "seg-49",
+        "start_time": 215.0,
+        "end_time": 216.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.6934687500000223,
+        "text": "Full stop."
+      },
+      {
+        "id": "seg-50",
+        "start_time": 216.0,
+        "end_time": 218.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.547156249999972,
+        "text": "Next heading is B, full stop."
+      },
+      {
+        "id": "seg-51",
+        "start_time": 218.0,
+        "end_time": 220.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.0,
+        "text": "And then quantum, please put that in bold."
+      },
+      {
+        "id": "seg-52",
+        "start_time": 220.0,
+        "end_time": 222.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.075281249999989,
+        "text": "And then start a new bullet point."
+      },
+      {
+        "id": "seg-53",
+        "start_time": 222.0,
+        "end_time": 223.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.7134687500000041,
+        "text": "New bullet point."
+      },
+      {
+        "id": "seg-54",
+        "start_time": 223.0,
+        "end_time": 227.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 3.5946562499999857,
+        "text": "He arrived at hospital at 12.30pm and was seen by a doctor."
+      },
+      {
+        "id": "seg-55",
+        "start_time": 227.0,
+        "end_time": 231.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 3.1734062499999993,
+        "text": "He was given a support for his shoulder and told to take painkillers, full stop."
+      },
+      {
+        "id": "seg-56",
+        "start_time": 231.0,
+        "end_time": 237.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 4.032218750000027,
+        "text": "He was diagnosed that he had torn muscles in his left shoulder and had tissue damage, full stop."
+      },
+      {
+        "id": "seg-57",
+        "start_time": 237.0,
+        "end_time": 240.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.5818749999999966,
+        "text": "He was told to get a sick note from his GP, full stop."
+      },
+      {
+        "id": "seg-58",
+        "start_time": 240.0,
+        "end_time": 241.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.6184062499999925,
+        "text": "Next bullet point."
+      },
+      {
+        "id": "seg-59",
+        "start_time": 241.0,
+        "end_time": 246.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 5.0,
+        "text": "Ultimately, he got a sick note for some three stroke four weeks, full stop."
+      },
+      {
+        "id": "seg-60",
+        "start_time": 246.0,
+        "end_time": 247.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.0,
+        "text": "New bullet point."
+      },
+      {
+        "id": "seg-61",
+        "start_time": 247.0,
+        "end_time": 252.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 4.421250000000015,
+        "text": "He still continues to see his GP once each month and is prescribed numerous medications."
+      },
+      {
+        "id": "seg-62",
+        "start_time": 252.0,
+        "end_time": 258.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 5.1806250000000205,
+        "text": "He has not had any physiotherapy and continues to have problems sleeping and cannot do any heavy lifting, full stop."
+      },
+      {
+        "id": "seg-63",
+        "start_time": 258.0,
+        "end_time": 264.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.5987500000000523,
+        "text": "He describes the difficulties he has in cold weather and in connection with his social life and domestic duties."
+      },
+      {
+        "id": "seg-64",
+        "start_time": 264.0,
+        "end_time": 268.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 3.989093749999995,
+        "text": "And as a result, he has been unemployed for the last 13 months."
+      },
+      {
+        "id": "seg-65",
+        "start_time": 268.0,
+        "end_time": 270.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.2025000000000432,
+        "text": "New bullet point."
+      },
+      {
+        "id": "seg-66",
+        "start_time": 270.0,
+        "end_time": 276.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 6.0,
+        "text": "He did get a job as a lorry driver in June 2009, but only lasted four days due to his shoulder injury, full stop."
+      },
+      {
+        "id": "seg-67",
+        "start_time": 276.0,
+        "end_time": 278.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.8815312499999663,
+        "text": "End of the bullet point."
+      },
+      {
+        "id": "seg-68",
+        "start_time": 278.0,
+        "end_time": 282.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 4.0,
+        "text": "New heading, opinion stroke recommendation, which is bold and underlined."
+      },
+      {
+        "id": "seg-69",
+        "start_time": 282.0,
+        "end_time": 284.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.5827812499999823,
+        "text": "New paragraph, not bullet pointed."
+      },
+      {
+        "id": "seg-70",
+        "start_time": 284.0,
+        "end_time": 291.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 3.402156249999962,
+        "text": "The claimant suggests that there was no health and safety policy in force at his place of employment and he was never given any manual handling training."
+      },
+      {
+        "id": "seg-71",
+        "start_time": 291.0,
+        "end_time": 303.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 7.171875000000057,
+        "text": "He describes being instructed to pull the barriers out of their supporting feet by hand, but suggests that on occasions this would have been performed by a machine, but it was cheaper to use manual labour."
+      },
+      {
+        "id": "seg-72",
+        "start_time": 303.0,
+        "end_time": 304.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.5059062499999527,
+        "text": "Full stop."
+      },
+      {
+        "id": "seg-73",
+        "start_time": 304.0,
+        "end_time": 309.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 3.425968750000038,
+        "text": "Furthermore, he had been told not to use a sledgehammer to dislodge the feet as that had the potential of damaging them."
+      },
+      {
+        "id": "seg-74",
+        "start_time": 309.0,
+        "end_time": 310.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.0,
+        "text": "Full stop."
+      },
+      {
+        "id": "seg-75",
+        "start_time": 310.0,
+        "end_time": 311.0,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.4634687500000041,
+        "text": "New paragraph."
+      },
+      {
+        "id": "seg-76",
+        "start_time": 311.0,
+        "end_time": 320.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 3.6281250000000114,
+        "text": "If indeed he had not gone through any manual handling training, then clearly his employers will have a case to answer and may well struggle to evidence any risk assessment relating to the"
+      },
+      {
+        "id": "seg-77",
+        "start_time": 320.98,
+        "end_time": 323.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 3.0,
+        "text": "activities he was undertaking at the material time."
+      },
+      {
+        "id": "seg-78",
+        "start_time": 323.98,
+        "end_time": 324.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.5234687500000064,
+        "text": "Full stop."
+      },
+      {
+        "id": "seg-79",
+        "start_time": 324.98,
+        "end_time": 327.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.750906250000014,
+        "text": "New heading is timesheet, which is bold and underlined."
+      },
+      {
+        "id": "seg-80",
+        "start_time": 327.98,
+        "end_time": 332.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.058749999999975,
+        "text": "Under that we have engaged upon this file as follows."
+      },
+      {
+        "id": "seg-81",
+        "start_time": 332.98,
+        "end_time": 335.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.583406249999996,
+        "text": "Please put this in bullet points."
+      },
+      {
+        "id": "seg-82",
+        "start_time": 335.98,
+        "end_time": 341.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.563468750000027,
+        "text": "File administration, telecross, and then hyphen, and then 40 minutes."
+      },
+      {
+        "id": "seg-83",
+        "start_time": 341.98,
+        "end_time": 342.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.589031250000005,
+        "text": "Next bullet point."
+      },
+      {
+        "id": "seg-84",
+        "start_time": 342.98,
+        "end_time": 345.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 3.0,
+        "text": "Interview with your client, hyphen, one hour, fifteen minutes."
+      },
+      {
+        "id": "seg-85",
+        "start_time": 345.98,
+        "end_time": 346.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.207843749999995,
+        "text": "Next bullet point."
+      },
+      {
+        "id": "seg-86",
+        "start_time": 346.98,
+        "end_time": 350.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.059718750000002,
+        "text": "Technical compilation, hyphen, 40 minutes."
+      },
+      {
+        "id": "seg-87",
+        "start_time": 350.98,
+        "end_time": 352.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.0,
+        "text": "Finalisation, hyphen, 20 minutes."
+      },
+      {
+        "id": "seg-88",
+        "start_time": 352.98,
+        "end_time": 354.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.012781249999989,
+        "text": "Next header is enclosures."
+      },
+      {
+        "id": "seg-89",
+        "start_time": 354.98,
+        "end_time": 355.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.0,
+        "text": "Please bold and underline that."
+      },
+      {
+        "id": "seg-90",
+        "start_time": 355.98,
+        "end_time": 357.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.834718749999979,
+        "text": "And we enclose the following."
+      },
+      {
+        "id": "seg-91",
+        "start_time": 357.98,
+        "end_time": 358.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.6927812499999959,
+        "text": "Again bullet points."
+      },
+      {
+        "id": "seg-92",
+        "start_time": 358.98,
+        "end_time": 361.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 3.0,
+        "text": "A typed version of the draft statement we have taken."
+      },
+      {
+        "id": "seg-93",
+        "start_time": 361.98,
+        "end_time": 362.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.27153125000000955,
+        "text": "Next bullet point."
+      },
+      {
+        "id": "seg-94",
+        "start_time": 362.98,
+        "end_time": 363.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.0,
+        "text": "A note of our fee."
+      },
+      {
+        "id": "seg-95",
+        "start_time": 363.98,
+        "end_time": 365.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 0.9787499999999909,
+        "text": "Next line."
+      },
+      {
+        "id": "seg-96",
+        "start_time": 365.98,
+        "end_time": 369.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 2.8671562499999936,
+        "text": "If we can be of any further assistance please do not hesitate to let us know."
+      },
+      {
+        "id": "seg-97",
+        "start_time": 369.98,
+        "end_time": 370.98,
+        "speaker": "SPEAKER_00",
+        "overlap_seconds": 1.0,
+        "text": "Yours faithfully."
+      }
+    ]
   }
 }
