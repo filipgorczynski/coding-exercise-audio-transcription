@@ -6,6 +6,14 @@ from typing import List, Optional
 from pydantic import BaseModel, Field
 
 
+class SpeakerTurn(BaseModel):
+    """Represents a speaker turn with start/end times and speaker label."""
+
+    start: float
+    end: float
+    speaker: str
+
+
 class TranscriptionStatus(str, Enum):
     """Transcription processing status."""
 
@@ -21,6 +29,8 @@ class TranscriptionSegment(BaseModel):
     id: str
     start_time: float = Field(ge=0, description="Start time in seconds")
     end_time: float = Field(ge=0, description="End time in seconds")
+    speaker: Optional[str] = Field(default="")
+    overlap_seconds: Optional[float] = Field(default=0.0)
     text: str
 
 

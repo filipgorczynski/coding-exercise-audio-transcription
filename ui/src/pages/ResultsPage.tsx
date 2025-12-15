@@ -7,6 +7,31 @@ import { TranscriptionSegmentItem } from "../components/transcription";
 import { Button } from "primereact/button";
 import { formatTime } from "../utils";
 
+const SPEAKER_COLORS = [
+  "#FFE6E6",  // Light Red
+  "#E6F7FF",  // Light Blue
+  "#FFF7E6",  // Light Orange
+  "#F0FFE6",  // Light Green
+  "#FFE6F7",  // Light Pink
+  "#E6FFFA",  // Light Teal
+  "#FFF0E6",  // Light Peach
+  "#F0E6FF",  // Light Purple
+  "#FFFAE6",  // Light Yellow
+];
+const DEFAULT_COLOR = "#F5F5F5";  // Light gray for unknown/undefined speakers
+
+const getSpeakerColor = (speaker: string | undefined): string => {
+  if (!speaker || speaker.trim() === "" || speaker === "UNKNOWN") {
+    return DEFAULT_COLOR;
+  }
+
+  // Extract number from speaker ID (e.g., "SPEAKER_00" -> 0, "SPEAKER_01" -> 1)
+  const match = speaker.match(/\d+$/);
+  const index = match ? parseInt(match[0], 10) % SPEAKER_COLORS.length : 0;
+
+  return SPEAKER_COLORS[index];
+};
+
 export function ResultsPage() {
   const navigate = useNavigate();
   const { transcriptionId } = useParams<{ transcriptionId: string }>();
@@ -63,10 +88,7 @@ export function ResultsPage() {
     return (
       <div style={{ padding: "2rem", maxWidth: "800px", margin: "0 auto" }}>
         <Card>
-          <Message
-            severity="error"
-            text={`Transcription Failed: ${transcription.metadata?.error || "Unknown error"}`}
-          />
+          <Message severity="error" text="Transcription Failed" />
           <p style={{ marginTop: "1rem" }}>Please try again.</p>
         </Card>
       </div>
@@ -89,7 +111,11 @@ export function ResultsPage() {
           <h4>Segments:</h4>
           {transcription?.segments && transcription.segments.length > 0 ? (
             transcription.segments.map((segment) => (
-              <TranscriptionSegmentItem key={segment.id} segment={segment} />
+              <TranscriptionSegmentItem
+                key={segment.id}
+                segment={segment}
+                backgroundColor={getSpeakerColor(segment.speaker)}
+              />
             ))
           ) : (
             <p>No segments found in transcription.</p>

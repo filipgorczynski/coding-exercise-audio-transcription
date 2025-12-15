@@ -1,4 +1,5 @@
 """Application configuration."""
+
 import os
 from typing import List
 
@@ -10,6 +11,7 @@ class Settings:
     API_TITLE: str = "Audio/Video Transcription API"
     API_DESCRIPTION: str = "API for transcribing audio and video files"
     API_VERSION: str = "1.0.0"
+    HUGGING_FACE_TOKEN: str = os.getenv("HUGGINGFACE_ACCESS_TOKEN", "Missing Hugging Face token")
 
     # File Upload Configuration
     UPLOAD_DIR: str = os.getenv("UPLOAD_DIR", "./uploads")

@@ -59,18 +59,6 @@ class DataStorage:
             return Transcription(**data[transcription_id])
         return None
 
-    # TODO(fgorczynski): Ensure it is still needed
-    # def update(
-    #     self, transcription_id: str, transcription: Transcription
-    # ) -> Transcription:
-    #     """Update an existing transcription."""
-    #     data = self._load_data()
-    #     if transcription_id not in data:
-    #         raise ValueError(f"Transcription {transcription_id} not found")
-    #     data[transcription_id] = transcription.model_dump(mode="json")
-    #     self._save_data(data)
-    #     return transcription
-
     def list_all(self) -> List[Transcription]:
         """List all transcriptions."""
         data = self._load_data()

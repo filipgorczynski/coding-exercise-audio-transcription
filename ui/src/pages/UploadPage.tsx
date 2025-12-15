@@ -73,7 +73,7 @@ export function UploadPage() {
 
               {fileUploadMutation.isPending && (
                 <div style={{ marginTop: "1rem" }}>
-                  {fileUploadMutation.progress < 100 ? (
+                  {/* {fileUploadMutation.progress < 100 ? (
                     <div>
                       <p
                         style={{ textAlign: "center", marginBottom: "0.5rem" }}
@@ -82,14 +82,14 @@ export function UploadPage() {
                       </p>
                       <ProgressBar value={fileUploadMutation.progress} />
                     </div>
-                  ) : (
-                    <div>
-                      <LoadingSpinner />
-                      <p style={{ textAlign: "center", marginTop: "1rem" }}>
-                        Processing your file... this may take a few minutes
-                      </p>
-                    </div>
-                  )}
+                  ) : ( */}
+                  <div>
+                    <LoadingSpinner />
+                    <p style={{ textAlign: "center", marginTop: "1rem" }}>
+                      Processing your file... this may take a few minutes
+                    </p>
+                  </div>
+                  {/* )} */}
                 </div>
               )}
             </div>
